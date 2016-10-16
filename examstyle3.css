@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("https://fonts.gstatic.com/s/roboto/v15/sTdaA6j0Psb920Vjv-mrzH-_kf6ByYO6CLYdB4HQE-Y.woff2"), 
+    url("https://fonts.gstatic.com/s/roboto/v15/oHi30kwQWvpCWqAhzHcCSIX0hVgzZQUfRDuZrPvH3D8.woff2"),
+    url("https://fonts.gstatic.com/s/roboto/v15/isZ-wbCXNKAbnjo6_TwHToX0hVgzZQUfRDuZrPvH3D8.woff2")
+}
+#wrapper {
+    font-family: "Roboto", Helvetica, sans-serif;
+    color: #1E1917;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #eeeeee;
+    box-sizing: border-box;
+    padding: 0 20px 30px 30px;
+    border: 1px solid grey;
+}
+label {
+    font-size: 14px;
+}
+        /*Header*/
+h1 {
+    font-size: 40px;
+    margin: 30px 0 0 40px;
+    color: #3d535e;
+}
+header {
+    width: auto;
+    height: 100px;
+    background: white;
+    border-right: 5px solid #324e5b;
+    border-top: 5px solid #324e5b;
+    margin-bottom: 30px;
+}
+        /*MAIN*/
+
+section {
+    display: inline-block;
+}
+        /*FIRST SECTION*/
+section:first-of-type {
+    width: 550px;
+    box-sizing:border-box;
+    padding: 0 20px;
+} 
+input {
+    margin: 15px auto;
+    width: 500px;
+    border-left: 3px solid #324e5b;
+    border-top: 3px solid #324e5b;
+    margin-top:5px;
+    height: 30px;
+}
+#User-type, #radio {
+    display: inline-block;
+    width: 30px;
+    position: relative;
+    top: 6px;
+}
+#radio {
+    margin-left: 200px;
+}
+.group > form > input {
+    width: 30px;
+    margin: 0;
+    position: relative;
+    top: 7px;
+}
+.group {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 500px;
+    background: white;
+    border-left: 3px solid #324e5b;
+    border-top: 3px solid #324e5b;
+}
+button {
+    width: 46.7%;
+    height: 40px;
+    font-weight: 700;
+    border: none;
+    border-right: 2px solid orange;
+    border-bottom: 2px solid orange;
+    color: orange;
+    background: #eeeeee;
+}
+button:last-of-type {
+    margin-left: 20px;
+    border: none;
+    border-right: 2px solid green;
+    border-bottom: 2px solid green;
+    color: green;
+}
+section > input:last-of-type {
+    width: 20px;
+}
+main > section > p {
+    margin-bottom: 3px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+input:last-of-type {
+    position: relative;
+    top: 7px;
+}
+section:last-of-type {
+    box-sizing: border-box;
+    width: 193px;
+    vertical-align: top;
+    padding-top: 16px;
+}
+a {
+    color: #136F63;
+    cursor: default;
+}
+.newrow {
+    margin-bottom: 40px;
+}
+.group > form > p {
+    display: inline-block;
+    width: 90%;
+    margin: 3px;
+}
+section:first-of-type > form > p {
+    display: inline-block;
+    width: 7%;
+    margin: 3px; 
+}
